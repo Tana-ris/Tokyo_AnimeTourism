@@ -2,9 +2,9 @@
 
 （編集中）
 
-# DEMO
+# DEMO動画（YouTubeに飛びます）
 
-[!['DEMO動画'](https://github.com/Tana-ris/Tokyo_AnimeTourism/blob/main/SEICHI.png)]('https://youtu.be/i-fXMteILKQ')
+[![DEMO動画](https://github.com/Tana-ris/Tokyo_AnimeTourism/blob/main/SEICHI.png)](https://youtu.be/i-fXMteILKQ)
 
 # Features
 
