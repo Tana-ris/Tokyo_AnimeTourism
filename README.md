@@ -1,7 +1,12 @@
-## 聖地巡礼アプリ「SEICHI」
+## 聖地巡礼アプリ『SEICHI』の概要
 
-[都知事杯オープンデータ・ハッカソン](https://odhackathon.metro.tokyo.lg.jp/)（2023年）にて，立正大学後藤研究室として参戦。  
-アニメの聖地巡礼に着目し，外国人観光客向けに観光ルートを提案する ***『SEICHI』*** を提案。
+立正大学後藤研究室として，[都知事杯オープンデータ・ハッカソン](https://odhackathon.metro.tokyo.lg.jp/)（2023年）に参戦。  
+アニメの聖地巡礼に着目し，外国人観光客向けに観光ルートを提案するAndroidアプリケーション ***『SEICHI』*** を提案。
+
+ルート提案は以下の流れで行っている。  
+現在地取得 ➡ 最寄りの自転車シェアリング場を検索 ➡ 行きたい聖地（目的地）を選択 ➡ 最終目的地に近いHOTELや旅館を検索 ➡ GoogleのDirections APIを用いてルート提案
+
+このアプリは聖地巡礼がメインだが，美術館のルート提案，緊急時の避難ルート提案も行えるように構築している。
 
 <br />
 
@@ -11,7 +16,7 @@
 
 <br />
 
-## ハッカソン発表時のスライド（一部抜粋）
+## 成果発表時のスライド（一部抜粋）
 | 現状 |　課題と解決案 |
 | ---- | ---- |
 | ![現状](https://github.com/Tana-ris/Tokyo_AnimeTourism/assets/142727754/5cd3cf37-6e98-415b-aca8-c9512764494a) | ![課題と解決案](https://github.com/Tana-ris/Tokyo_AnimeTourism/assets/142727754/f59aca12-eadf-455b-b4d3-f66290f14551) |
@@ -21,8 +26,8 @@
 | ---- | ---- |
 | ![フロー](https://github.com/Tana-ris/Tokyo_AnimeTourism/assets/142727754/5228dd23-204a-45e3-b309-e28efbf43247) | ![使い方](https://github.com/Tana-ris/Tokyo_AnimeTourism/assets/142727754/bf764e21-ece9-49db-9f6d-b3595fd072e8) |
 | Platform：Android Studio | ① アプリを起動し，表示したい地図を選択！|
-| API：Maps SDK for Android，Directions API | ②行きたい聖地をタップ！|
-| Data：Anime Data（シーン毎の緯度経度），東京都のOpen Data（自転車シェアリング，HOTEL・旅館，文化施設，避難所） | ③ルートと所要時間が表示される！|
+| API：Maps SDK for Android，Directions API | ② 行きたい聖地をタップ！|
+| Data：Anime Data（シーン毎の緯度経度），東京都のOpen Data（自転車シェアリング，HOTEL・旅館，文化施設，避難所） | ③ ルートと所要時間が表示される！|
 
 <br />
 
@@ -35,16 +40,18 @@
 
 ## 今後の展望
 将来的にはアプリケーションの向上を目指し，以下のアップデートを行う定です。  
-![今後の展望](https://github.com/Tana-ris/Tokyo_AnimeTourism/assets/142727754/69137c4d-57d0-4d08-9584-2f4ecaf24e98)
+- ARを導入しアニメと同じ画角がわかるようにする
+- 施設の利用状況や人気スポットなども追加
+- 英語だけでなく，アジア圏の言語にも対応した表示を行う
 
 <br />
 
-## team紹介
+## チームメンバー
 ![チーム紹介](https://github.com/Tana-ris/Tokyo_AnimeTourism/assets/142727754/628507ca-d5b6-427f-bbba-ea567011a00f)
 * Tana-ris  
-  立正大学大学院　地球環境科学研究科　環境システム学専攻　修士2年
+  立正大学大学院　地球環境科学研究科　環境システム学専攻　修士2年  
           深層学習を用いた土砂災害の被災地早期検知について研究中。  
-* 後藤真太郎
+* 後藤真太郎  
   立正大学　地球環境科学部　環境システム学科　教授
 * kyonsato  
   立正大学大学院　地球環境科学研究科　環境システム学専攻　博士3年
