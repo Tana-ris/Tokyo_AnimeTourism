@@ -1,0 +1,9 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="oval">
+    <solid android:color="#996750A3" /> <!-- 背景色を設定 -->
+    <size
+        android:width="20dp"
+        android:height="20dp" /> <!-- 円の高さを定義 -->
+</shape>
+
+
