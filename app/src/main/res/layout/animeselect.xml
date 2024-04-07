@@ -1,0 +1,55 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".animation_select">
+
+    <!-- 画面下部にボタンを配置する LinearLayout -->
+
+    <!-- 例: TextView 要素の配置 -->
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/door" />
+
+    <TextView
+        android:id="@+id/myTextView"
+        android:layout_width="348dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:background="#CCEFEFEF"
+        android:text="Slide the screen to select the map you want to view!!"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="#6750A3"
+        android:textSize="34sp"
+        android:textStyle="bold|italic" />
+
+    <LinearLayout
+        android:id="@+id/circularLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="bottom">
+
+    </LinearLayout>
+
+
+</FrameLayout>
+
+
+
+
+

@@ -1,0 +1,25 @@
+<resources>
+    <string name="button_text_weather">Weathering with you </string>
+    <string name="button_text_yourname">Museum</string>
+    <string name="button_text_suzume">Emergency shelter locations</string>
+    <string name="button_text_niwa">a</string>
+    <string name="button_text_5s">b</string>
+    <string name="button_text_someone">c</string>
+    <string name="button_text_starchild">d</string>
+    <string name="button_text_she">e</string>
+    <string name="button_text_cloud">f</string>
+    <string name="button_text_starvoice">g</string>
+</resources>
+
+<!--
+<item>Weathering with you</item>
+<item>Your Name.</item>
+<item>Suzume</item>
+<item>The Garden of Words</item>
+<item>5 Centimeters per Second</item>
+<item>Someone\'s Gaze</item>
+<item>Children Who Chase Lost Voices</item>
+<item>Everything Flows</item>
+<item>The Place Promised in Our Early Days</item>
+<item>Voices of a Distant Star</item>
+-->

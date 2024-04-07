@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">tokyo2</string>
+    <string name="google_maps_api_key" translatable="false">AIzaSyAekity_O9uyI2_LNlmOTnlhQ-6EFVJa3A</string>
+</resources>

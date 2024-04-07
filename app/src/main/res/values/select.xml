@@ -1,0 +1,29 @@
+<resources>
+    <string-array name="option_names">
+        <item>Weathering with you</item>
+        <item>Museum</item>
+        <item>Emergency shelter locations</item>
+        <item>a</item>
+        <item>b</item>
+        <item>c</item>
+        <item>d</item>
+        <item>e</item>
+        <item>f</item>
+        <item>g</item>
+        <!-- 他の選択肢を追加 -->
+    </string-array>
+</resources>
+
+<!--
+        <item>Weathering with you</item>
+        <item>Your Name.</item>
+        <item>Suzume</item>
+        <item>The Garden of Words</item>
+        <item>5 Centimeters per Second</item>
+        <item>Someone\'s Gaze</item>
+        <item>Children Who Chase Lost Voices</item>
+        <item>Everything Flows</item>
+        <item>The Place Promised in Our Early Days</item>
+        <item>Voices of a Distant Star</item>
+-->
+
