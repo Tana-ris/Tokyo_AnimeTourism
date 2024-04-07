@@ -22,7 +22,7 @@
 | ![フロー](https://github.com/Tana-ris/Tokyo_AnimeTourism/assets/142727754/5228dd23-204a-45e3-b309-e28efbf43247) | ![使い方](https://github.com/Tana-ris/Tokyo_AnimeTourism/assets/142727754/bf764e21-ece9-49db-9f6d-b3595fd072e8) |
 | Platform：Android Studio | ① アプリを起動し，表示したい地図を選択！|
 | API：Maps SDK for Android，Directions API | ②行きたい聖地をタップ！|
-| Data：Anime Data（シーン毎の緯度経度），Open Data（自転車シェアリング，HOTEL・旅館，文化施設，避難所） | ③ルートと所要時間が表示される！|
+| Data：Anime Data（シーン毎の緯度経度），東京都のOpen Data（自転車シェアリング，HOTEL・旅館，文化施設，避難所） | ③ルートと所要時間が表示される！|
 
 <br />
 
