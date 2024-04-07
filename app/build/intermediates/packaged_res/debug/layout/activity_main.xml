@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1114F3"
+    android:backgroundTint="#00712323"
+    android:orientation="vertical">
+
+    <!--googelemapを呼び出すコード-->
+
+    <com.google.android.gms.maps.MapView
+        android:id="@+id/mapView"
+        android:layout_width="match_parent"
+        android:layout_height="707dp"
+        android:background="#FF0202"
+        android:backgroundTint="#9CC7B6E4"
+        android:baselineAligned="false"
+        app:iconTint="#34A4FD"
+        app:rippleColor="#251EE9"
+        app:strokeColor="#FF9800"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:baselineAligned="false"
+        android:insetTop="0dp"
+        android:insetBottom="0dp"
+        android:text="Let's go !!"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textColorHighlight="#FF0000"
+        android:textColorHint="#009688"
+        android:textColorLink="#FFC107"
+        android:textSize="24sp"
+        app:rippleColor="#C3426D"
+        tools:text="Let's go !!" />
+
+
+</LinearLayout>
