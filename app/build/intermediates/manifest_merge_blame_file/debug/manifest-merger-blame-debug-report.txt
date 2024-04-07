@@ -1,0 +1,166 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.tokyo2"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+7-->C:\Users\PCuser\Desktop\Tokyo_AnimeTourism\app\src\main\AndroidManifest.xml:8:5-10:38
+8        android:maxSdkVersion="33"
+8-->C:\Users\PCuser\Desktop\Tokyo_AnimeTourism\app\src\main\AndroidManifest.xml:10:9-35
+9        android:minSdkVersion="29"
+9-->C:\Users\PCuser\Desktop\Tokyo_AnimeTourism\app\src\main\AndroidManifest.xml:8:15-41
+10        android:targetSdkVersion="33" />
+10-->C:\Users\PCuser\Desktop\Tokyo_AnimeTourism\app\src\main\AndroidManifest.xml:9:9-38
+11
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->C:\Users\PCuser\Desktop\Tokyo_AnimeTourism\app\src\main\AndroidManifest.xml:5:5-67
+12-->C:\Users\PCuser\Desktop\Tokyo_AnimeTourism\app\src\main\AndroidManifest.xml:5:22-64
+13    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+13-->C:\Users\PCuser\Desktop\Tokyo_AnimeTourism\app\src\main\AndroidManifest.xml:6:5-79
+13-->C:\Users\PCuser\Desktop\Tokyo_AnimeTourism\app\src\main\AndroidManifest.xml:6:22-76
+14    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+14-->C:\Users\PCuser\Desktop\Tokyo_AnimeTourism\app\src\main\AndroidManifest.xml:7:5-81
+14-->C:\Users\PCuser\Desktop\Tokyo_AnimeTourism\app\src\main\AndroidManifest.xml:7:22-78
+15
+16    <!-- Include required permissions for Google Maps API to run. -->
+17    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+17-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\PCuser\.gradle\caches\transforms-3\45d2476c657b2ea59972e9e0cd243591\transformed\play-services-maps-18.1.0\AndroidManifest.xml:23:5-79
+17-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\PCuser\.gradle\caches\transforms-3\45d2476c657b2ea59972e9e0cd243591\transformed\play-services-maps-18.1.0\AndroidManifest.xml:23:22-76
+18
+19    <uses-feature
+19-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\PCuser\.gradle\caches\transforms-3\45d2476c657b2ea59972e9e0cd243591\transformed\play-services-maps-18.1.0\AndroidManifest.xml:26:5-28:35
+20        android:glEsVersion="0x00020000"
+20-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\PCuser\.gradle\caches\transforms-3\45d2476c657b2ea59972e9e0cd243591\transformed\play-services-maps-18.1.0\AndroidManifest.xml:27:9-41
+21        android:required="true" />
+21-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\PCuser\.gradle\caches\transforms-3\45d2476c657b2ea59972e9e0cd243591\transformed\play-services-maps-18.1.0\AndroidManifest.xml:28:9-32
+22
+23    <queries>
+23-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\PCuser\.gradle\caches\transforms-3\45d2476c657b2ea59972e9e0cd243591\transformed\play-services-maps-18.1.0\AndroidManifest.xml:30:5-34:15
+24
+25        <!-- Needs to be explicitly declared on Android R+ -->
+26        <package android:name="com.google.android.apps.maps" />
+26-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\PCuser\.gradle\caches\transforms-3\45d2476c657b2ea59972e9e0cd243591\transformed\play-services-maps-18.1.0\AndroidManifest.xml:33:9-64
+26-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\PCuser\.gradle\caches\transforms-3\45d2476c657b2ea59972e9e0cd243591\transformed\play-services-maps-18.1.0\AndroidManifest.xml:33:18-61
+27    </queries>
+28
+29    <permission
+29-->[androidx.core:core:1.9.0] C:\Users\PCuser\.gradle\caches\transforms-3\58ff50cb0bbe0a9ee597cd58d279d8de\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+30        android:name="com.example.tokyo2.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+30-->[androidx.core:core:1.9.0] C:\Users\PCuser\.gradle\caches\transforms-3\58ff50cb0bbe0a9ee597cd58d279d8de\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+31        android:protectionLevel="signature" />
+31-->[androidx.core:core:1.9.0] C:\Users\PCuser\.gradle\caches\transforms-3\58ff50cb0bbe0a9ee597cd58d279d8de\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+32
+33    <uses-permission android:name="com.example.tokyo2.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+33-->[androidx.core:core:1.9.0] C:\Users\PCuser\.gradle\caches\transforms-3\58ff50cb0bbe0a9ee597cd58d279d8de\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+33-->[androidx.core:core:1.9.0] C:\Users\PCuser\.gradle\caches\transforms-3\58ff50cb0bbe0a9ee597cd58d279d8de\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+34
+35    <application
+35-->C:\Users\PCuser\Desktop\Tokyo_AnimeTourism\app\src\main\AndroidManifest.xml:11:5-53:19
+36        android:allowBackup="true"
+36-->C:\Users\PCuser\Desktop\Tokyo_AnimeTourism\app\src\main\AndroidManifest.xml:13:9-35
+37        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+37-->[androidx.core:core:1.9.0] C:\Users\PCuser\.gradle\caches\transforms-3\58ff50cb0bbe0a9ee597cd58d279d8de\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+38        android:dataExtractionRules="@xml/data_extraction_rules"
+38-->C:\Users\PCuser\Desktop\Tokyo_AnimeTourism\app\src\main\AndroidManifest.xml:14:9-65
+39        android:debuggable="true"
+40        android:extractNativeLibs="false"
+41        android:fullBackupContent="@xml/backup_rules"
+41-->C:\Users\PCuser\Desktop\Tokyo_AnimeTourism\app\src\main\AndroidManifest.xml:15:9-54
+42        android:icon="@drawable/appicon"
+42-->C:\Users\PCuser\Desktop\Tokyo_AnimeTourism\app\src\main\AndroidManifest.xml:16:9-41
+43        android:label="SEICHI"
+43-->C:\Users\PCuser\Desktop\Tokyo_AnimeTourism\app\src\main\AndroidManifest.xml:17:9-31
+44        android:roundIcon="@drawable/appicon"
+44-->C:\Users\PCuser\Desktop\Tokyo_AnimeTourism\app\src\main\AndroidManifest.xml:18:9-46
+45        android:supportsRtl="true"
+45-->C:\Users\PCuser\Desktop\Tokyo_AnimeTourism\app\src\main\AndroidManifest.xml:19:9-35
+46        android:testOnly="true"
+47        android:theme="@style/Theme.Tokyo2"
+47-->C:\Users\PCuser\Desktop\Tokyo_AnimeTourism\app\src\main\AndroidManifest.xml:20:9-44
+48        android:usesCleartextTraffic="true" >
+48-->C:\Users\PCuser\Desktop\Tokyo_AnimeTourism\app\src\main\AndroidManifest.xml:12:9-44
+49        <activity
+49-->C:\Users\PCuser\Desktop\Tokyo_AnimeTourism\app\src\main\AndroidManifest.xml:24:9-31:20
+50            android:name="com.example.tokyo2.animation_select"
+50-->C:\Users\PCuser\Desktop\Tokyo_AnimeTourism\app\src\main\AndroidManifest.xml:24:19-51
+51            android:exported="true" >
+51-->C:\Users\PCuser\Desktop\Tokyo_AnimeTourism\app\src\main\AndroidManifest.xml:25:13-36
+52            <intent-filter>
+52-->C:\Users\PCuser\Desktop\Tokyo_AnimeTourism\app\src\main\AndroidManifest.xml:26:13-30:29
+53                <action android:name="android.intent.action.MAIN" />
+53-->C:\Users\PCuser\Desktop\Tokyo_AnimeTourism\app\src\main\AndroidManifest.xml:27:17-69
+53-->C:\Users\PCuser\Desktop\Tokyo_AnimeTourism\app\src\main\AndroidManifest.xml:27:25-66
+54
+55                <category android:name="android.intent.category.LAUNCHER" />
+55-->C:\Users\PCuser\Desktop\Tokyo_AnimeTourism\app\src\main\AndroidManifest.xml:29:17-77
+55-->C:\Users\PCuser\Desktop\Tokyo_AnimeTourism\app\src\main\AndroidManifest.xml:29:27-74
+56            </intent-filter>
+57        </activity>
+58        <activity
+58-->C:\Users\PCuser\Desktop\Tokyo_AnimeTourism\app\src\main\AndroidManifest.xml:34:9-41:20
+59            android:name="com.example.tokyo2.MainActivity"
+59-->C:\Users\PCuser\Desktop\Tokyo_AnimeTourism\app\src\main\AndroidManifest.xml:35:13-41
+60            android:exported="true" >
+60-->C:\Users\PCuser\Desktop\Tokyo_AnimeTourism\app\src\main\AndroidManifest.xml:36:13-36
+61            <intent-filter>
+61-->C:\Users\PCuser\Desktop\Tokyo_AnimeTourism\app\src\main\AndroidManifest.xml:37:13-40:29
+62                <action android:name="android.intent.action.MAIN" />
+62-->C:\Users\PCuser\Desktop\Tokyo_AnimeTourism\app\src\main\AndroidManifest.xml:27:17-69
+62-->C:\Users\PCuser\Desktop\Tokyo_AnimeTourism\app\src\main\AndroidManifest.xml:27:25-66
+63            </intent-filter>
+64        </activity>
+65
+66        <meta-data
+66-->C:\Users\PCuser\Desktop\Tokyo_AnimeTourism\app\src\main\AndroidManifest.xml:43:9-45:71
+67            android:name="com.google.android.geo.API_KEY"
+67-->C:\Users\PCuser\Desktop\Tokyo_AnimeTourism\app\src\main\AndroidManifest.xml:44:13-58
+68            android:value="AIzaSyAekity_O9uyI2_LNlmOTnlhQ-6EFVJa3A" />
+68-->C:\Users\PCuser\Desktop\Tokyo_AnimeTourism\app\src\main\AndroidManifest.xml:45:13-68
+69        <meta-data
+69-->C:\Users\PCuser\Desktop\Tokyo_AnimeTourism\app\src\main\AndroidManifest.xml:46:9-48:69
+70            android:name="com.google.android.gms.version"
+70-->C:\Users\PCuser\Desktop\Tokyo_AnimeTourism\app\src\main\AndroidManifest.xml:47:13-58
+71            android:value="@integer/google_play_services_version" />
+71-->C:\Users\PCuser\Desktop\Tokyo_AnimeTourism\app\src\main\AndroidManifest.xml:48:13-66
+72
+73        <uses-library
+73-->C:\Users\PCuser\Desktop\Tokyo_AnimeTourism\app\src\main\AndroidManifest.xml:49:9-51:39
+74            android:name="org.apache.http.legacy"
+74-->C:\Users\PCuser\Desktop\Tokyo_AnimeTourism\app\src\main\AndroidManifest.xml:50:13-50
+75            android:required="false" />
+75-->C:\Users\PCuser\Desktop\Tokyo_AnimeTourism\app\src\main\AndroidManifest.xml:51:13-37
+76
+77        <activity
+77-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\PCuser\.gradle\caches\transforms-3\6450222f52c59a633b961a7f722fe7e4\transformed\play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+78            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+78-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\PCuser\.gradle\caches\transforms-3\6450222f52c59a633b961a7f722fe7e4\transformed\play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+79            android:exported="false"
+79-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\PCuser\.gradle\caches\transforms-3\6450222f52c59a633b961a7f722fe7e4\transformed\play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+80            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+80-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\PCuser\.gradle\caches\transforms-3\6450222f52c59a633b961a7f722fe7e4\transformed\play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+81
+82        <provider
+82-->[androidx.emoji2:emoji2:1.2.0] C:\Users\PCuser\.gradle\caches\transforms-3\0e70ce2c13058ac294ef6b1500b48189\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+83            android:name="androidx.startup.InitializationProvider"
+83-->[androidx.emoji2:emoji2:1.2.0] C:\Users\PCuser\.gradle\caches\transforms-3\0e70ce2c13058ac294ef6b1500b48189\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+84            android:authorities="com.example.tokyo2.androidx-startup"
+84-->[androidx.emoji2:emoji2:1.2.0] C:\Users\PCuser\.gradle\caches\transforms-3\0e70ce2c13058ac294ef6b1500b48189\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+85            android:exported="false" >
+85-->[androidx.emoji2:emoji2:1.2.0] C:\Users\PCuser\.gradle\caches\transforms-3\0e70ce2c13058ac294ef6b1500b48189\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+86            <meta-data
+86-->[androidx.emoji2:emoji2:1.2.0] C:\Users\PCuser\.gradle\caches\transforms-3\0e70ce2c13058ac294ef6b1500b48189\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+87                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+87-->[androidx.emoji2:emoji2:1.2.0] C:\Users\PCuser\.gradle\caches\transforms-3\0e70ce2c13058ac294ef6b1500b48189\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+88                android:value="androidx.startup" />
+88-->[androidx.emoji2:emoji2:1.2.0] C:\Users\PCuser\.gradle\caches\transforms-3\0e70ce2c13058ac294ef6b1500b48189\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+89            <meta-data
+89-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\PCuser\.gradle\caches\transforms-3\6431435bf9261ea565b31090a04c7ccc\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+90                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+90-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\PCuser\.gradle\caches\transforms-3\6431435bf9261ea565b31090a04c7ccc\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+91                android:value="androidx.startup" />
+91-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\PCuser\.gradle\caches\transforms-3\6431435bf9261ea565b31090a04c7ccc\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+92        </provider>
+93    </application>
+94
+95</manifest>
