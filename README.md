@@ -20,21 +20,12 @@
 | システム構築図 |　使い方 |
 | ---- | ---- |
 | ![フロー](https://github.com/Tana-ris/Tokyo_AnimeTourism/assets/142727754/5228dd23-204a-45e3-b309-e28efbf43247) | ![使い方](https://github.com/Tana-ris/Tokyo_AnimeTourism/assets/142727754/bf764e21-ece9-49db-9f6d-b3595fd072e8) |
-|  開発環境 ：Android Studio | ① アプリを起動し，表示したい地図を選択！|
-| ターゲット：アニメ映画『天気の子』を見て来日した外国人観光客 | ②行きたい聖地をタップ！|
-| 使用データ：シーン毎の緯度経度，Open Data（自転車シェアリング，HOTEL・旅館，文化施設，避難所） | ③ルートと所要時間が表示される！|
+| Platform：Android Studio | ① アプリを起動し，表示したい地図を選択！|
+| API：Maps SDK for Android，Directions API | ②行きたい聖地をタップ！|
+| Data：Anime Data（シーン毎の緯度経度），Open Data（自転車シェアリング，HOTEL・旅館，文化施設，避難所） | ③ルートと所要時間が表示される！|
 
+<br />
 
-
-| 請求書詳細画面 |　PDF出力画面 |
-| ---- | ---- |
-| ![請求書詳細画面](/docs/img/app-view/invoice-detail_1.1.png) | ![　PDF出力画面](/docs/img/app-view/print-invoice_1.1.png) |
-| 請求書データの表示機能を実装しました。 | PDFでの請求書発行機能を実装しました。 |
-
-| 登録するマスタの選択画面 |　マスタの登録画面 |
-| ---- | ---- |
-| ![請求書詳細画面](/docs/img/app-view/select-master_1.1.png) | ![　PDF出力画面](/docs/img/app-view/master-register-form_1.1.png) |
-| 事業者情報と備考欄情報のマスタ登録機能を実装しました。 | マスタ情報の登録をすることで、請求書の作成時にデータを呼び出すことができます。 |
 
 ## Requirement
 
