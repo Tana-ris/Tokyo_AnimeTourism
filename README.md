@@ -63,7 +63,7 @@
   立正大学大学院　地球環境科学研究科　環境システム学専攻　修士2年  
           [深層学習を用いた土砂災害の被災地早期検知（ポスター）](https://rissho-es.jp/wp/wp-content/uploads/2024/03/ba00c0a55d6767643da5a369973aef92.pdf)について研究中  
     
-* 後藤真太郎 先生  
+* [後藤真太郎 先生](https://gyouseki.ris.ac.jp/riuhp/KgApp?resId=S000127)  
   立正大学　地球環境科学部　環境システム学科　教授  
           今回のハッカソンの発起人
   
