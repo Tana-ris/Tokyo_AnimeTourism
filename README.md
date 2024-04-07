@@ -1,8 +1,9 @@
 # 聖地巡礼アプリ「SEICHI」
 
-（編集中）
+都知事杯オープンデータ・ハッカソン（2023年）にて，立正大学後藤研究室として参戦。  
+アニメの聖地巡礼に着目し，外国人観光客向けに観光ルートを提案する ***『SEICHI』*** を提案。
 
-# DEMO動画（YouTubeに飛びます）
+# DEMO動画（画像をクリックするとYouTubeに飛びます）
 
 [![DEMO動画](https://github.com/Tana-ris/Tokyo_AnimeTourism/blob/main/SEICHI.png)](https://youtu.be/i-fXMteILKQ)
 
