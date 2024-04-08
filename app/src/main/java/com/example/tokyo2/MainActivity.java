@@ -67,7 +67,7 @@ import android.graphics.BitmapFactory;
 
 public class MainActivity extends AppCompatActivity implements OnMapReadyCallback {
     private final GeoApiContext geoApiContext = new GeoApiContext.Builder()
-            .apiKey("AIzaSyAekity_O9uyI2_LNlmOTnlhQ-6EFVJa3A")
+            .apiKey("Google APIキー")
             .build();
     private final Map<Marker, Integer> markerTapCounts = new HashMap<>();
     private LatLng start;//出発地点
