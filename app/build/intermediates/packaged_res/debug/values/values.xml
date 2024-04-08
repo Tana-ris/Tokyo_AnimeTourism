@@ -30,7 +30,7 @@
     <string name="button_text_suzume">Emergency shelter locations</string>
     <string name="button_text_weather">Weathering with you </string>
     <string name="button_text_yourname">Museum</string>
-    <string name="google_maps_api_key" translatable="false">AIzaSyAekity_O9uyI2_LNlmOTnlhQ-6EFVJa3A</string>
+    <string name="google_maps_api_key" translatable="false">Google APIキー</string>
     <style name="Base.Theme.Tokyo2" parent="Theme.Material3.DayNight.NoActionBar">
         
         
